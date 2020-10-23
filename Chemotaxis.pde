@@ -31,8 +31,10 @@
  } 
    
    Snow [] drop;
+   
    void setup() {     
      size(500, 500);
+     textAlign(CENTER,CENTER);
      drop = new Snow[100];
      for (int i = 0; i < drop.length; i++) {
        drop[i] = new Snow();
